@@ -168,7 +168,7 @@
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <version>1.4.197</version>
+            <version>1.4.200-lineaje-01</version>
         </dependency>
 
         <!-- HTTP Clients (old versions) -->
