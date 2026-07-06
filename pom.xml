@@ -16,7 +16,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.18</version>
+        <version>2.7.18-lineaje-01</version>
         <relativePath/>
     </parent>
 
@@ -40,6 +40,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>2.7.18-lineaje-01</version>
         </dependency>
 
         <dependency>
@@ -57,6 +58,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
+            <version>2.7.18-lineaje-01</version>
         </dependency>
 
         <!-- Kotlin support -->
@@ -81,7 +83,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.22.0</version>
+            <version>2.22.0-lineaje-01</version>
         </dependency>
 
         <dependency>
@@ -294,7 +296,7 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-dynamodb</artifactId>
-            <version>1.11.327</version>
+            <version>1.12.797</version>
         </dependency>
 
         <!-- Apache Struts (CRITICAL CVEs) -->
@@ -341,6 +343,12 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
+            <version>1.5.37-lineaje-01</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
             <version>1.5.37</version>
         </dependency>
 
@@ -377,7 +385,7 @@
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-high-level-client</artifactId>
-            <version>6.8.1</version>
+            <version>6.8.23-lineaje-01</version>
         </dependency>
 
         <!-- Apache Kafka -->
