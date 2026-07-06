@@ -221,7 +221,7 @@
         <dependency>
             <groupId>org.apache.velocity</groupId>
             <artifactId>velocity</artifactId>
-            <version>1.7</version>
+            <version>1.7-lineaje-01</version>
         </dependency>
 
         <dependency>
