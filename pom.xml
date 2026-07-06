@@ -325,7 +325,7 @@
         <dependency>
             <groupId>com.graphql-java</groupId>
             <artifactId>graphql-java</artifactId>
-            <version>11.0</version>
+            <version>11.0-lineaje-01</version>
         </dependency>
 
         <!-- Logging frameworks -->
