@@ -294,7 +294,7 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-dynamodb</artifactId>
-            <version>1.11.327</version>
+            <version>1.12.797</version>
         </dependency>
 
         <!-- Apache Struts (CRITICAL CVEs) -->
