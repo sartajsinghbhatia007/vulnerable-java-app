@@ -285,7 +285,7 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-s3</artifactId>
-            <version>1.11.327</version>
+            <version>1.12.797-lineaje-01</version>
         </dependency>
 
         <dependency>
