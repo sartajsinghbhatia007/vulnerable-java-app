@@ -207,6 +207,7 @@
             <artifactId>dom4j</artifactId>
             <version>2.1.4</version>
             <!-- WARNING: dom4j has known vulnerabilities, this dependency should be removed or replaced -->
+            <!-- WARNING: dom4j has known vulnerabilities, this dependency should be removed or replaced -->
             <!-- WARNING: dom4j has known vulnerabilities, this package should be removed or replaced -->
             <!-- WARNING: dom4j has known vulnerabilities, consider removing or replacing -->
             <!-- WARNING: dom4j has known vulnerabilities, consider removing or replacing -->
@@ -352,6 +353,7 @@
             <artifactId>logback-classic</artifactId>
             <version>1.2.13</version>
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
+            <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities -->
         </dependency>
@@ -423,7 +425,7 @@
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.9.2</version>
+            <version>2.10.5</version>
         </dependency>
 
         <!-- Apache Camel -->
