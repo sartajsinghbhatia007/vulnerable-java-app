@@ -211,6 +211,7 @@
             <!-- WARNING: dom4j has known vulnerabilities, this dependency should be removed or replaced -->
             <!-- WARNING: dom4j has known vulnerabilities, this dependency should be removed or replaced -->
             <!-- WARNING: dom4j has known vulnerabilities, this dependency should be removed or replaced -->
+            <!-- WARNING: dom4j has known vulnerabilities, this dependency should be removed or replaced -->
             <!-- WARNING: dom4j has known vulnerabilities, this package should be removed or replaced -->
             <!-- WARNING: dom4j has known vulnerabilities, consider removing or replacing -->
             <!-- WARNING: dom4j has known vulnerabilities, consider removing or replacing -->
@@ -360,6 +361,7 @@
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
+            <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities -->
         </dependency>
@@ -481,7 +483,7 @@
         <dependency>
             <groupId>com.datastax.cassandra</groupId>
             <artifactId>cassandra-driver-core</artifactId>
-            <version>3.7.2</version>
+            <version>3.11.5</version>
         </dependency>
 
         <!-- Bouncy Castle (Crypto) -->
