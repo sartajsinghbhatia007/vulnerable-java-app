@@ -209,6 +209,7 @@
             <!-- WARNING: dom4j has known vulnerabilities, this dependency should be removed or replaced -->
             <!-- WARNING: dom4j has known vulnerabilities, this dependency should be removed or replaced -->
             <!-- WARNING: dom4j has known vulnerabilities, this dependency should be removed or replaced -->
+            <!-- WARNING: dom4j has known vulnerabilities, this dependency should be removed or replaced -->
             <!-- WARNING: dom4j has known vulnerabilities, this package should be removed or replaced -->
             <!-- WARNING: dom4j has known vulnerabilities, consider removing or replacing -->
             <!-- WARNING: dom4j has known vulnerabilities, consider removing or replacing -->
@@ -232,7 +233,7 @@
         <dependency>
             <groupId>org.apache.velocity</groupId>
             <artifactId>velocity</artifactId>
-            <version>1.7</version>
+            <version>1.7-lineaje-01</version>
         </dependency>
 
         <dependency>
@@ -353,6 +354,7 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.2.13</version>
+            <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
