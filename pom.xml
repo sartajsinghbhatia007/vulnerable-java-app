@@ -207,6 +207,7 @@
             <artifactId>dom4j</artifactId>
             <version>2.1.4</version>
             <!-- WARNING: dom4j has known vulnerabilities, consider removing or replacing -->
+            <!-- WARNING: dom4j has known vulnerabilities, consider removing or replacing -->
             <exclusions>
                 <exclusion>
                     <groupId>*</groupId>
@@ -326,7 +327,7 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.1.36.Final</version>
+            <version>4.2.0.Final</version>
         </dependency>
 
         <!-- GraphQL -->
@@ -347,6 +348,7 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.2.13</version>
+            <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities -->
         </dependency>
 
         <!-- JUnit and Testing -->
