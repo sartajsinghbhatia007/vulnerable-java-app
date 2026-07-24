@@ -208,6 +208,7 @@
             <version>2.1.4</version>
             <!-- WARNING: dom4j has known vulnerabilities, this dependency should be removed or replaced -->
             <!-- WARNING: dom4j has known vulnerabilities, this dependency should be removed or replaced -->
+            <!-- WARNING: dom4j has known vulnerabilities, this dependency should be removed or replaced -->
             <!-- WARNING: dom4j has known vulnerabilities, this package should be removed or replaced -->
             <!-- WARNING: dom4j has known vulnerabilities, consider removing or replacing -->
             <!-- WARNING: dom4j has known vulnerabilities, consider removing or replacing -->
@@ -354,6 +355,7 @@
             <version>1.2.13</version>
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
+            <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities -->
         </dependency>
@@ -398,7 +400,7 @@
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
-            <version>2.2.1</version>
+            <version>2.8.2-lineaje-01</version>
         </dependency>
 
         <!-- Zookeeper -->
