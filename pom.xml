@@ -205,6 +205,7 @@
             <groupId>org.dom4j</groupId>
             <artifactId>dom4j</artifactId>
             <version>2.1.4</version>
+            <!-- TODO: Review dom4j for security vulnerabilities -->
             <exclusions>
                 <exclusion>
                     <groupId>org.dom4j</groupId>
@@ -331,7 +332,7 @@
         <dependency>
             <groupId>com.graphql-java</groupId>
             <artifactId>graphql-java</artifactId>
-            <version>11.0</version>
+            <version>11.0-lineaje-01</version>
         </dependency>
 
         <!-- Logging frameworks -->
