@@ -16,7 +16,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.18-lineaje-01</version>
+        <version>2.7.18</version>
         <relativePath/>
     </parent>
 
@@ -34,7 +34,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.7.18-lineaje-01</version>
+            <version>2.7.18</version>
         </dependency>
 
         <dependency>
@@ -79,7 +79,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.22.0</version>
+            <version>2.22.1</version>
         </dependency>
 
         <dependency>
@@ -179,7 +179,7 @@
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
-            <version>3.12.1</version>
+            <version>3.14.9</version>
         </dependency>
 
         <!-- JWT Libraries (old vulnerable versions) -->
@@ -206,6 +206,7 @@
             <groupId>org.dom4j</groupId>
             <artifactId>dom4j</artifactId>
             <version>2.1.4</version>
+            <!-- WARNING: dom4j has known vulnerabilities, this package should be removed or replaced -->
             <!-- WARNING: dom4j has known vulnerabilities, consider removing or replacing -->
             <!-- WARNING: dom4j has known vulnerabilities, consider removing or replacing -->
             <!-- WARNING: dom4j has known vulnerabilities, consider removing or replacing -->
@@ -349,6 +350,7 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.2.13</version>
+            <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities -->
         </dependency>
 
@@ -393,6 +395,13 @@
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
             <version>2.2.1</version>
+        </dependency>
+
+        <!-- Zookeeper -->
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.9.5</version>
         </dependency>
 
         <!-- RabbitMQ -->
