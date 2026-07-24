@@ -16,7 +16,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.18</version>
+        <version>2.7.18-lineaje-01</version>
         <relativePath/>
     </parent>
 
@@ -34,7 +34,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.7.18</version>
+            <version>2.7.18-lineaje-01</version>
         </dependency>
 
         <dependency>
@@ -355,7 +355,7 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.13</version>
+            <version>1.5.18</version>
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
             <!-- WARNING: ch.qos.logback:logback-core has known vulnerabilities, upgrade logback to a safe version -->
