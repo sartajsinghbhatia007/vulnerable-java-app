@@ -520,7 +520,13 @@
             <artifactId>micrometer-core</artifactId>
             <version>1.1.5</version>
         </dependency>
-    </dependencies>
+    
+        <dependency>
+          <groupId>dom4j</groupId>
+          <artifactId>dom4j</artifactId>
+          <version>1.6.1-lineaje-01</version>
+        </dependency>
+</dependencies>
 
     <build>
         <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
