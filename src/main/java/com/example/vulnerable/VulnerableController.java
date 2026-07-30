@@ -261,8 +261,14 @@ public class VulnerableController {
     public Map<String, Object> parseXml(@RequestBody String xmlData) {
         Map<String, Object> response = new HashMap<>();
         try {
-            // Vulnerable: XML parser without XXE protection
+            // XXE hardening: disable DOCTYPE declarations and external entity resolution.
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            factory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
+            factory.setFeature("http://xml.org/sax/features/external-general-entities", false);
+            factory.setFeature("http://xml.org/sax/features/external-parameter-entities", false);
+            factory.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
+            factory.setXIncludeAware(false);
+            factory.setExpandEntityReferences(false);
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document document = builder.parse(new ByteArrayInputStream(xmlData.getBytes()));
 
